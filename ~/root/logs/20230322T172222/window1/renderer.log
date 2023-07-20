@@ -1,0 +1,232 @@
+2023-03-22 17:22:23.558 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:22:24.990 [error] Extension 'github.copilot' wants API proposal 'interactive' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:22:24.991 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:22:25.165 [info] [cmstead.js-codeformer]: Command `cmstead.jscodeformer.introduceFunction` appears multiple times in the `commands` section.
+2023-03-22 17:22:25.252 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2023-03-22 17:22:26.986 [info] [perf] Render performance baseline is 31ms
+2023-03-22 17:22:30.478 [error] [Extension Host] (node:28210) [PINODEP007] PinoWarning: bindings.level is deprecated, use options.level option instead
+(Use `Code Helper (Plugin) --trace-warnings ...` to show where the warning was created)
+2023-03-22 17:22:30.649 [warning] {}
+2023-03-22 17:22:34.482 [error] ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log': Error: ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log'
+2023-03-22 17:22:37.030 [warning] {}
+2023-03-22 17:22:41.283 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-03-22 17:22:44.783 [error] [Extension Host] (node:28210) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2023-03-22 17:22:46.283 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-03-22 17:22:48.103 [warning] {}
+2023-03-22 17:22:57.896 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-03-22 17:22:58.630 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-03-22 17:23:03.758 [warning] UNRESPONSIVE extension host: 'github.copilot-labs' took 88.84049059345324% of 827.861ms, saved PROFILE here: 'file:///var/folders/x7/v4m_sytj4f1191fr3pnpc2300000gn/T/exthost-08608d.cpuprofile'
+2023-03-22 17:23:04.925 [error] Unknown webview handle:6e7eb818-0827-45e5-8be0-9ef8bd53ad43: Error: Unknown webview handle:6e7eb818-0827-45e5-8be0-9ef8bd53ad43
+    at tl.k (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1566:70455)
+    at tl.$setHtml (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1566:69370)
+    at m.N (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:15220)
+    at m.M (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14938)
+    at m.H (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14031)
+    at m.G (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:13012)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:11800
+    at g.invoke (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at r.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:553:15219)
+    at Z.onmessage (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1671:1490)
+2023-03-22 17:23:11.088 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:23:12.533 [error] Extension 'github.copilot' wants API proposal 'interactive' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:23:12.534 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:23:13.906 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2023-03-22 17:23:13.906 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: django-html
+2023-03-22 17:23:15.331 [error] [Extension Host] (node:28445) [PINODEP007] PinoWarning: bindings.level is deprecated, use options.level option instead
+(Use `Code Helper (Plugin) --trace-warnings ...` to show where the warning was created)
+2023-03-22 17:23:15.521 [info] [perf] Render performance baseline is 55ms
+2023-03-22 17:23:16.693 [error] [Extension Host] (node:28445) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2023-03-22 17:23:17.959 [error] ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log': Error: ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log'
+2023-03-22 17:23:21.357 [error] engine not set: Error: engine not set
+    at _i.getEngine (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3216663)
+    at /Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3454524
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at F.$onDidGrantWorkspaceTrust (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:20267)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:21.771 [error] Extension 'github.copilot' wants API proposal 'interactive' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-03-22 17:23:21.810 [info] [cmstead.js-codeformer]: Command `cmstead.jscodeformer.introduceFunction` appears multiple times in the `commands` section.
+2023-03-22 17:23:21.848 [error] [sidthesloth.html5-boilerplate]: Unknown language in `contributes.html5-boilerplate.language`. Provided value: njk
+2023-03-22 17:23:28.607 [error] session.update is not a function: TypeError: session.update is not a function
+    at NodeClient.BaseClient.captureSession (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/core/dist/baseclient.js:125:21)
+    at N._sendSessionUpdate (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397683)
+    at N.endSession (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397055)
+    at N.startSession (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397426)
+    at startSessionTracking (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/node/dist/sdk.js:224:9)
+    at Object.init (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/node/dist/sdk.js:118:9)
+    at Function.init (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/out/snyk/common/error/errorReporter.js:37:16)
+    at SnykExtension.activate (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/out/snyk/extension.js:92:13)
+2023-03-22 17:23:33.235 [error] [Extension Host] [ERROR] [default] [2023-03-22T11:53:33.234Z] You are not signed in to GitHub. Please sign in to use Copilot.
+2023-03-22 17:23:36.251 [error] [Extension Host] [ERROR] [default] [2023-03-22T11:53:36.246Z] GitHub Copilot Labs could not connect to server. Extension activation failed: "Authentication error: GitHubLoginFailed"
+2023-03-22 17:24:10.772 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptModelChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:11193)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:10.772 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:10.834 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at k.$acceptModelSaved (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10672)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.219 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptModelChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:11193)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.220 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.294 [error] Cannot read properties of undefined (reading 'filter'): TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at k.$acceptModelSaved (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10672)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)

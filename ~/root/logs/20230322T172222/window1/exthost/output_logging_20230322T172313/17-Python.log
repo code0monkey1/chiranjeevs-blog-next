@@ -1,0 +1,13 @@
+Experiment 'pythonPromptNewToolsExt' is active
+Experiment 'pythonSurveyNotificationcf' is active
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+> /usr/local/Caskroom/miniconda/base/bin/python -I ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3 -I ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.11 -I ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+> /usr/local/bin/python3.9 -I ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.4.1/pythonFiles/interpreterInfo.py
+Python interpreter path: /usr/local/bin/python3.11
+Starting Pylance language server.
+[ERROR 2023-2-22 17:23:29.804]: Unable to identify shell /bin/sh  for OS  OSX

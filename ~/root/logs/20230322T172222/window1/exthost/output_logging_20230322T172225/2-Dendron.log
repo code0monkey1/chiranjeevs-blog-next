@@ -1,0 +1,8 @@
+info: {"ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+info: {"ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/logs/20230322T172222/window1/exthost/dendron.dendron","extensionPath":"/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0","extensionUri":"/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0"}
+info: {"ctx":"DendronExtension","msg":"initialized"}
+info: {"ctx":"_activate","msg":"initializeWorkspace","wsType":"NONE","currentVersion":"0.119.0","previousGlobalVersion":"0.119.0","extensionInstallStatus":"NO_CHANGE"}
+info: {"ctx":"_activate","msg":"dendron not active"}
+info: {"msg":"Telemetry is disabled? false"}
+info: {"msg":"Segment Residual Cache Path is at /Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+info: {"ctx":"showWelcomeOrWhatsNew","version":"0.119.0","previousExtensionVersion":"0.0.0"}

@@ -1,0 +1,47 @@
+[Info  - 17:24:02] ESLint server is starting.
+[Info  - 17:24:06] ESLint server running in node v16.14.2
+[Info  - 17:24:07] ESLint server is running.
+[Info  - 17:24:08] ESLint library loaded from: /Users/chiranjeevthomas/node_modules/eslint/lib/api.js
+Uncaught exception received.
+Error: No ESLint configuration found in /Users/chiranjeevthomas/typewriter.
+    at CascadingConfigArrayFactory._finalizeConfigArray (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:508:19)
+    at CascadingConfigArrayFactory.getConfigArrayForFile (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:299:21)
+    at CLIEngine.getConfigForFile (/Users/chiranjeevthomas/node_modules/eslint/lib/cli-engine/cli-engine.js:953:14)
+    at T.calculateConfigForFile (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:12545)
+    at /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22174
+    at Object.E [as withClass] (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:18748)
+    at w.then.g.validate (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22140)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+Uncaught exception received.
+Error: No ESLint configuration found in /Users/chiranjeevthomas/typewriter.
+    at CascadingConfigArrayFactory._finalizeConfigArray (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:508:19)
+    at CascadingConfigArrayFactory.getConfigArrayForFile (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:299:21)
+    at CLIEngine.getConfigForFile (/Users/chiranjeevthomas/node_modules/eslint/lib/cli-engine/cli-engine.js:953:14)
+    at T.calculateConfigForFile (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:12545)
+    at /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22174
+    at Object.E [as withClass] (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:18748)
+    at w.then.g.validate (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22140)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+Uncaught exception received.
+Error: No ESLint configuration found in /Users/chiranjeevthomas/typewriter.
+    at CascadingConfigArrayFactory._finalizeConfigArray (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:508:19)
+    at CascadingConfigArrayFactory.getConfigArrayForFile (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:299:21)
+    at CLIEngine.getConfigForFile (/Users/chiranjeevthomas/node_modules/eslint/lib/cli-engine/cli-engine.js:953:14)
+    at T.calculateConfigForFile (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:12545)
+    at /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22174
+    at Object.E [as withClass] (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:18748)
+    at w.then.g.validate (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22140)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:220784
+Uncaught exception received.
+Error: No ESLint configuration found in /Users/chiranjeevthomas/typewriter.
+    at CascadingConfigArrayFactory._finalizeConfigArray (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:508:19)
+    at CascadingConfigArrayFactory.getConfigArrayForFile (/Users/chiranjeevthomas/node_modules/@eslint/eslintrc/lib/cascading-config-array-factory.js:299:21)
+    at CLIEngine.getConfigForFile (/Users/chiranjeevthomas/node_modules/eslint/lib/cli-engine/cli-engine.js:953:14)
+    at T.calculateConfigForFile (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:12545)
+    at /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22174
+    at Object.E [as withClass] (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:18748)
+    at w.then.g.validate (/Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:22140)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/chiranjeevthomas/.vscode/extensions/dbaeumer.vscode-eslint-2.4.0/server/out/eslintServer.js:1:220784
+[Info  - 17:24:41] ESLint server stopped.

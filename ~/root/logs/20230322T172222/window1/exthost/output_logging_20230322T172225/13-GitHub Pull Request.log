@@ -1,0 +1,5 @@
+[Info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/github.vscode-pull-request-github/temp'
+[Info] Looking for git repository
+[Info] Found 0 repositories during activation
+[Info] Git repository found, initializing review manager and pr tree view.
+[Info] Registering git provider

@@ -1,0 +1,3 @@
+2023-03-22 17:24:02.948 [info] /usr/local/bin/git rev-parse --git-dir
+2023-03-22 17:24:02.956 [info] /usr/local/bin/git rev-parse --git-dir
+2023-03-22 17:24:06.206 [info] Will not blame '/Users/chiranjeevthomas/typewriter/things.ts'. Outside the current workspace.

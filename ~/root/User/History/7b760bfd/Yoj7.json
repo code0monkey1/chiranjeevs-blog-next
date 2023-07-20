@@ -1,0 +1,14 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "git.ignoredRepositories": [
+        "/Users/chiranjeevthomas/.vscode/extensions/stepsize.stepsize-1.0.14/resources/demo-repository"
+    ],
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false
+}

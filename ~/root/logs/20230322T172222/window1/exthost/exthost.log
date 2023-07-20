@@ -1,0 +1,1099 @@
+2023-03-22 17:22:25.573 [info] Extension host with pid 28210 started
+2023-03-22 17:22:25.780 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-22 17:22:25.799 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-22 17:22:25.856 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-22 17:22:25.859 [info] ExtensionService#_doActivateExtension 2gua.rainbow-brackets, startup: true, activationEvent: '*'
+2023-03-22 17:22:25.863 [info] ExtensionService#_doActivateExtension Amin.omodoro, startup: true, activationEvent: '*'
+2023-03-22 17:22:25.883 [info] ExtensionService#_doActivateExtension arcsine.chronicler, startup: true, activationEvent: '*'
+2023-03-22 17:22:25.908 [info] ExtensionService#_doActivateExtension Cardinal90.multi-cursor-case-preserve, startup: true, activationEvent: '*'
+2023-03-22 17:22:25.922 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-03-22 17:22:25.943 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.874 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.880 [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.915 [info] ExtensionService#_doActivateExtension emeraldwalk.RunOnSave, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.918 [info] ExtensionService#_doActivateExtension erichbehrens.pull-request-monitor, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.939 [info] ExtensionService#_doActivateExtension firsttris.vscode-jest-runner, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.993 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-03-22 17:22:26.995 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.023 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-03-22 17:22:27.026 [info] ExtensionService#_doActivateExtension illixion.vscode-vibrancy-continued, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.075 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.101 [info] ExtensionService#_doActivateExtension kenhowardpdx.vscode-gist, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.274 [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.292 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.315 [info] ExtensionService#_doActivateExtension michelemelluso.gitignore, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.316 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.318 [info] ExtensionService#_doActivateExtension shyykoserhiy.vscode-spotify, startup: true, activationEvent: '*'
+2023-03-22 17:22:27.760 [info] ExtensionService#_doActivateExtension snyk-security.snyk-vulnerability-scanner, startup: true, activationEvent: '*'
+2023-03-22 17:22:28.802 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+2023-03-22 17:22:28.863 [info] ExtensionService#_doActivateExtension TorShepherd.raining-in, startup: true, activationEvent: '*'
+2023-03-22 17:22:29.371 [info] ExtensionService#_doActivateExtension vespa-dev-works.jestRunIt, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.254 [info] ExtensionService#_doActivateExtension Wattenberger.footsteps, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.256 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.738 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.832 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.856 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-03-22 17:22:30.898 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:30.914 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:31.028 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:31.093 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:31.154 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:31.237 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:22:31.610 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-22 17:22:31.659 [info] ExtensionService#_doActivateExtension kavod-io.vscode-jest-test-adapter, startup: true, activationEvent: '*'
+2023-03-22 17:22:33.467 [info] ExtensionService#_doActivateExtension Stepsize.stepsize, startup: true, activationEvent: '*'
+2023-03-22 17:22:34.481 [error] Error: ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log'
+2023-03-22 17:22:34.654 [info] Eager extensions activated
+2023-03-22 17:22:35.139 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.163 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.226 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.238 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.272 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.348 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:35.492 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:36.726 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:36.989 [info] ExtensionService#_doActivateExtension EasyCodeAI.chatgpt-gpt4-gpt3-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:37.413 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:37.474 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:37.664 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-03-22 17:22:37.756 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:41.877 [info] ExtensionService#_doActivateExtension GitHub.copilot-labs, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:42.847 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:43.103 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:43.199 [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:43.255 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onStartupFinished', root cause: littlefoxteam.vscode-python-test-adapter
+2023-03-22 17:22:43.754 [info] ExtensionService#_doActivateExtension moalamri.inline-fold, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:43.775 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:43.792 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:44.782 [info] ExtensionService#_doActivateExtension PeterSchmalfeldt.explorer-exclude, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:44.836 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:44.866 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:45.677 [info] ExtensionService#_doActivateExtension RapidAPI.vscode-rapidapi-client, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:45.951 [info] ExtensionService#_doActivateExtension ReacTreeDev.reactree, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:45.994 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:46.029 [info] ExtensionService#_doActivateExtension softwaredotcom.swdc-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:46.196 [info] ExtensionService#_doActivateExtension waderyan.gitblame, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:46.210 [info] ExtensionService#_doActivateExtension withfig.fig, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:46.223 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:22:59.652 [error] Activating extension PeterSchmalfeldt.explorer-exclude failed due to an error:
+2023-03-22 17:22:59.652 [error] TypeError: Cannot read properties of null (reading 'asAbsolutePath')
+    at Object.getResourcePath (/Users/chiranjeevthomas/.vscode/extensions/peterschmalfeldt.explorer-exclude-1.3.2/extension/util.js:392:101)
+    at WelcomePane.show (/Users/chiranjeevthomas/.vscode/extensions/peterschmalfeldt.explorer-exclude-1.3.2/extension/welcome.js:11:22)
+    at activate (/Users/chiranjeevthomas/.vscode/extensions/peterschmalfeldt.explorer-exclude-1.3.2/extension/index.js:32:13)
+    at Function.db (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:14818)
+    at Function.cb (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:14519)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:12519
+    at f.n (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6818)
+    at f.m (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6781)
+    at f.l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6238)
+2023-03-22 17:23:04.923 [error] Error: Unknown webview handle:6e7eb818-0827-45e5-8be0-9ef8bd53ad43
+    at tl.k (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1566:70455)
+    at tl.$setHtml (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1566:69370)
+    at m.N (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:15220)
+    at m.M (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14938)
+    at m.H (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:14031)
+    at m.G (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:13012)
+    at vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1573:11800
+    at g.invoke (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at n.deliver (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:2029)
+    at a.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:86:1667)
+    at r.fire (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:553:15219)
+    at Z.onmessage (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1671:1490)
+2023-03-22 17:23:04.954 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:07.152 [info] ExtensionService#_doActivateExtension littlefoxteam.vscode-python-test-adapter, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:09.368 [info] Extension host terminating: renderer closed the MessagePort
+2023-03-22 17:23:09.635 [error] An error occurred when deactivating the subscriptions for extension 'arcsine.chronicler':
+2023-03-22 17:23:09.640 [error] Error: info:No recording running
+    at Recorder.stop (/Users/chiranjeevthomas/.vscode/extensions/arcsine.chronicler-0.1.16/out/recorder.js:66:19)
+    at Recorder.dispose (/Users/chiranjeevthomas/.vscode/extensions/arcsine.chronicler-0.1.16/out/recorder.js:14:14)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:09.641 [error] An error occurred when deactivating the extension 'dendron.dendron':
+2023-03-22 17:23:09.806 [error] DendronError: no native workspace
+    at _i.getWorkspaceImplOrThrow (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3215133)
+    at yi (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3211761)
+    at Object.ps (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3462018)
+    at Module.v (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3490073)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:09.944 [error] An error occurred when deactivating the subscriptions for extension 'Gruntfuggly.todo-tree':
+2023-03-22 17:23:09.947 [error] AggregateError: Encountered errors while disposing of store
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12148)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:09.952 [error] An error occurred when deactivating the extension 'moalamri.inline-fold':
+2023-03-22 17:23:09.972 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.deactivate (/Users/chiranjeevthomas/.vscode/extensions/moalamri.inline-fold-0.2.3/src/extension.ts:79:11)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:10.269 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at WelcomeWebview.resetContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:784776)
+    at WelcomeWebview.onPanelDisposed (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:785142)
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at o.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:171566)
+    at C.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at WelcomeWebview.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:783072)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.271 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at WelcomeWebview.resetContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:784827)
+    at WelcomeWebview.onPanelDisposed (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:785142)
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at o.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:171566)
+    at C.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at WelcomeWebview.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:783072)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.282 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at WelcomeWebview.resetContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:784873)
+    at WelcomeWebview.onPanelDisposed (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:785142)
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at o.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:171566)
+    at C.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at WelcomeWebview.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:783072)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.285 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at ActionRunners.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5351)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.287 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at ActionRunners.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5351)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.292 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.293 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.294 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.296 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at C.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at Q0.dispose (/Users/chiranjeevthomas/.vscode/extensions/github.vscode-pull-request-github-0.58.2/dist/extension.js:1526:33303)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:23:10.314 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at t.activate (/Users/chiranjeevthomas/.vscode/extensions/github.copilot-labs-0.12.791/dist/extension.js:11:202548)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at f.n (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6818)
+    at f.m (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6781)
+    at f.l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6238) setContext undefined
+2023-03-22 17:23:10.315 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at /Users/chiranjeevthomas/.vscode/extensions/github.copilot-1.78.9758/dist/extension.js:8:1387035
+    at n (/Users/chiranjeevthomas/.vscode/extensions/github.copilot-1.78.9758/dist/extension.js:8:1387095)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at t.activate (/Users/chiranjeevthomas/.vscode/extensions/github.copilot-1.78.9758/dist/extension.js:8:1388149)
+    at f.n (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6818)
+    at f.m (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6781)
+    at f.l (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6238) setContext undefined
+2023-03-22 17:23:11.211 [info] Extension host with pid 28210 exiting with code 0
+2023-03-22 17:23:13.546 [info] Extension host with pid 28445 started
+2023-03-22 17:23:13.546 [info] Skipping acquiring lock for /Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/workspaceStorage/fe9d5e4e7b9feed22d2f28651e9e29fe.
+2023-03-22 17:23:13.642 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-22 17:23:13.663 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-03-22 17:23:13.666 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2023-03-22 17:23:13.704 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2023-03-22 17:23:14.900 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2023-03-22 17:23:14.903 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2023-03-22 17:23:14.934 [info] ExtensionService#_doActivateExtension ms-vscode.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-03-22 17:23:14.938 [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard, startup: true, activationEvent: '*'
+2023-03-22 17:23:14.948 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+2023-03-22 17:23:15.492 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-22 17:23:15.546 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-22 17:23:15.697 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-03-22 17:23:15.747 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:23:15.767 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:23:15.852 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:23:15.916 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-22 17:23:16.021 [info] Eager extensions activated
+2023-03-22 17:23:16.094 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.097 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.112 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.117 [info] ExtensionService#_doActivateExtension alefragnani.project-manager, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.123 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.521 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.548 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.561 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onStartupFinished', root cause: esbenp.prettier-vscode
+2023-03-22 17:23:16.567 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.589 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.594 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.692 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.698 [info] ExtensionService#_doActivateExtension withfig.fig, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.704 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:16.917 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-22 17:23:17.074 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:17.958 [error] Error: ENOENT: no such file or directory, open '/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log'
+2023-03-22 17:23:21.342 [error] Error: engine not set
+    at _i.getEngine (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3216663)
+    at /Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3454524
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at F.$onDidGrantWorkspaceTrust (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:107:20267)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:23:22.128 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-03-22 17:23:22.274 [info] ExtensionService#_doActivateExtension 2gua.rainbow-brackets, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.276 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.283 [info] ExtensionService#_doActivateExtension Amin.omodoro, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.301 [info] ExtensionService#_doActivateExtension arcsine.chronicler, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.325 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.338 [info] ExtensionService#_doActivateExtension Cardinal90.multi-cursor-case-preserve, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.339 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.369 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.375 [info] ExtensionService#_doActivateExtension donjayamanne.githistory, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.421 [info] ExtensionService#_doActivateExtension EasyCodeAI.chatgpt-gpt4-gpt3-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.579 [info] ExtensionService#_doActivateExtension emeraldwalk.RunOnSave, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.581 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.634 [info] ExtensionService#_doActivateExtension erichbehrens.pull-request-monitor, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.649 [info] ExtensionService#_doActivateExtension firsttris.vscode-jest-runner, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.683 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.810 [info] ExtensionService#_doActivateExtension GitHub.copilot-labs, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.926 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:22.946 [info] ExtensionService#_doActivateExtension illixion.vscode-vibrancy-continued, startup: false, activationEvent: '*'
+2023-03-22 17:23:22.994 [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:23.012 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: false, activationEvent: '*'
+2023-03-22 17:23:23.040 [info] ExtensionService#_doActivateExtension kavod-io.vscode-jest-test-adapter, startup: false, activationEvent: '*'
+2023-03-22 17:23:23.933 [info] ExtensionService#_doActivateExtension kenhowardpdx.vscode-gist, startup: false, activationEvent: '*'
+2023-03-22 17:23:24.118 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onStartupFinished', root cause: littlefoxteam.vscode-python-test-adapter
+2023-03-22 17:23:24.170 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: false, activationEvent: '*'
+2023-03-22 17:23:24.194 [info] ExtensionService#_doActivateExtension michelemelluso.gitignore, startup: false, activationEvent: '*'
+2023-03-22 17:23:24.196 [info] ExtensionService#_doActivateExtension moalamri.inline-fold, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.204 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
+2023-03-22 17:23:24.206 [info] ExtensionService#_doActivateExtension PeterSchmalfeldt.explorer-exclude, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.222 [info] ExtensionService#_doActivateExtension rangav.vscode-thunder-client, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.341 [info] ExtensionService#_doActivateExtension RapidAPI.vscode-rapidapi-client, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.388 [info] ExtensionService#_doActivateExtension ReacTreeDev.reactree, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.394 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:24.407 [info] ExtensionService#_doActivateExtension shyykoserhiy.vscode-spotify, startup: false, activationEvent: '*'
+2023-03-22 17:23:24.786 [info] ExtensionService#_doActivateExtension snyk-security.snyk-vulnerability-scanner, startup: false, activationEvent: '*'
+2023-03-22 17:23:25.792 [info] ExtensionService#_doActivateExtension softwaredotcom.swdc-vscode, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:25.813 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:25.889 [info] ExtensionService#_doActivateExtension TorShepherd.raining-in, startup: false, activationEvent: '*'
+2023-03-22 17:23:26.341 [info] ExtensionService#_doActivateExtension vespa-dev-works.jestRunIt, startup: false, activationEvent: '*'
+2023-03-22 17:23:27.096 [info] ExtensionService#_doActivateExtension Wattenberger.footsteps, startup: false, activationEvent: '*'
+2023-03-22 17:23:27.098 [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+2023-03-22 17:23:27.904 [info] ExtensionService#_doActivateExtension littlefoxteam.vscode-python-test-adapter, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:28.075 [info] ExtensionService#_doActivateExtension Stepsize.stepsize, startup: false, activationEvent: '*'
+2023-03-22 17:23:28.600 [info] ExtensionService#_doActivateExtension waderyan.gitblame, startup: false, activationEvent: 'onStartupFinished'
+2023-03-22 17:23:28.606 [error] TypeError: session.update is not a function
+    at NodeClient.BaseClient.captureSession (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/core/dist/baseclient.js:125:21)
+    at N._sendSessionUpdate (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397683)
+    at N.endSession (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397055)
+    at N.startSession (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:2:1397426)
+    at startSessionTracking (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/node/dist/sdk.js:224:9)
+    at Object.init (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/node_modules/@sentry/node/dist/sdk.js:118:9)
+    at Function.init (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/out/snyk/common/error/errorReporter.js:37:16)
+    at SnykExtension.activate (/Users/chiranjeevthomas/.vscode/extensions/snyk-security.snyk-vulnerability-scanner-1.18.0/out/snyk/extension.js:92:13)
+2023-03-22 17:24:02.970 [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:02.993 [info] ExtensionService#_doActivateExtension chrmarti.regex, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:02.996 [info] ExtensionService#_doActivateExtension cmstead.js-codeformer, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:03.860 [info] ExtensionService#_doActivateExtension markis.code-coverage, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:03.865 [info] ExtensionService#_doActivateExtension mattpocock.ts-error-translator, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:03.991 [info] ExtensionService#_doActivateExtension meganrogge.template-string-converter, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:03.993 [info] ExtensionService#_doActivateExtension NuclleaR.vscode-extension-auto-import, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.016 [info] ExtensionService#_doActivateExtension Orta.vscode-twoslash-queries, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.017 [info] ExtensionService#_doActivateExtension sburg.vscode-javascript-booster, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.028 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.144 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.235 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode-completions, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:04.262 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onLanguage:typescript', root cause: VisualStudioExptTeam.vscodeintellicode-insiders
+2023-03-22 17:24:04.368 [info] ExtensionService#_doActivateExtension wix.vscode-import-cost, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:06.941 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode-insiders, startup: false, activationEvent: 'onLanguage:typescript'
+2023-03-22 17:24:10.771 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptModelChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:11193)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:10.772 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:10.811 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:10.834 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at k.$acceptModelSaved (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10672)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.218 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptModelChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:11193)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.219 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.264 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:17.293 [error] TypeError: Cannot read properties of undefined (reading 'filter')
+    at updateDiagnostics (/Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62005:36)
+    at /Users/chiranjeevthomas/.vscode/extensions/mattpocock.ts-error-translator-0.8.0/out/extension.js:62026:13
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at k.$acceptDirtyStateChanged (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10874)
+    at k.$acceptModelSaved (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:10672)
+    at l.N (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11239)
+    at l.M (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10957)
+    at l.H (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10044)
+    at l.G (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9022)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7810
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:15815
+    at f.invoke (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+    at g.deliver (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+    at d.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+    at p.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14861)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13941)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:41.565 [info] Extension host terminating: renderer closed the MessagePort
+2023-03-22 17:24:41.580 [error] An error occurred when deactivating the subscriptions for extension 'arcsine.chronicler':
+2023-03-22 17:24:41.581 [error] Error: info:No recording running
+    at Recorder.stop (/Users/chiranjeevthomas/.vscode/extensions/arcsine.chronicler-0.1.16/out/recorder.js:66:19)
+    at Recorder.dispose (/Users/chiranjeevthomas/.vscode/extensions/arcsine.chronicler-0.1.16/out/recorder.js:14:14)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:41.584 [error] An error occurred when deactivating the extension 'dendron.dendron':
+2023-03-22 17:24:41.585 [error] DendronError: no native workspace
+    at _i.getWorkspaceImplOrThrow (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3215133)
+    at yi (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3211761)
+    at Object.ps (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3462018)
+    at Module.v (/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0/dist/extension.js:8:3490073)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:41.603 [error] An error occurred when deactivating the subscriptions for extension 'Gruntfuggly.todo-tree':
+2023-03-22 17:24:41.604 [error] AggregateError: Encountered errors while disposing of store
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12148)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:41.607 [error] An error occurred when deactivating the extension 'moalamri.inline-fold':
+2023-03-22 17:24:41.610 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.deactivate (/Users/chiranjeevthomas/.vscode/extensions/moalamri.inline-fold-0.2.3/src/extension.ts:79:11)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)
+2023-03-22 17:24:41.658 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at ActionRunners.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5351)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.661 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at ActionRunners.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5351)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.663 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.664 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.665 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.670 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at c (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:988555)
+    at ActionRunners._updateContextKeys (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:7346)
+    at r (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5765)
+    at RegisteredActionRunner.unregister (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:5909)
+    at RegisteredActionRunner.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:4574)
+    at Object.dispose (/Users/chiranjeevthomas/.vscode/extensions/eamodio.gitlens-13.4.0/dist/gitlens.js:1:6006)
+    at C.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+    at C.dispose (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+    at Q0.dispose (/Users/chiranjeevthomas/.vscode/extensions/github.vscode-pull-request-github-0.58.2/dist/extension.js:1526:33303)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.676 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at TestExplorer.updateVisibility (/Users/chiranjeevthomas/.vscode/extensions/hbenl.vscode-test-explorer-2.21.1/out/testExplorer.js:334:25)
+    at TestExplorer.unregisterTestAdapter (/Users/chiranjeevthomas/.vscode/extensions/hbenl.vscode-test-explorer-2.21.1/out/testExplorer.js:64:18)
+    at TestHub.unregisterTestAdapter (/Users/chiranjeevthomas/.vscode/extensions/hbenl.vscode-test-explorer-2.21.1/out/hub/testHub.js:68:37)
+    at Object.unregisterTestAdapter (/Users/chiranjeevthomas/.vscode/extensions/hbenl.vscode-test-explorer-2.21.1/out/main.js:107:47)
+    at t.TestAdapterRegistrar.remove (/Users/chiranjeevthomas/.vscode/extensions/kavod-io.vscode-jest-test-adapter-0.8.1/node_modules/vscode-test-adapter-util/out/registrar.js:55:26)
+    at t.TestAdapterRegistrar.dispose (/Users/chiranjeevthomas/.vscode/extensions/kavod-io.vscode-jest-test-adapter-0.8.1/node_modules/vscode-test-adapter-util/out/registrar.js:62:18)
+    at T (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:41.678 [error] Canceled: Canceled
+    at new u (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+    at l.O (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+    at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at w.registerCommand.description (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+    at s.h (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+    at s.g (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+    at s.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+    at Object.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+    at Object.deactivate (/Users/chiranjeevthomas/.vscode/extensions/peterschmalfeldt.explorer-exclude-1.3.2/extension/index.js:152:19)
+    at f.X (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11042)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+    at Array.map (<anonymous>)
+    at f.Q (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+    at f.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+    at h.terminate (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+    at p (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+    at MessagePortMain.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+    at MessagePortMain.emit (node:events:526:28)
+    at MessagePortMain.emit (node:domain:475:12)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-03-22 17:24:42.099 [info] Extension host with pid 28445 exiting with code 0

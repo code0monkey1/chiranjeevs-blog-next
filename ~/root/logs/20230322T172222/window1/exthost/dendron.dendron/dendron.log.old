@@ -1,0 +1,18 @@
+{"level":30,"time":1679485950320,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+{"level":30,"time":1679485950476,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/logs/20230322T172222/window1/exthost/dendron.dendron","extensionPath":"/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0","extensionUri":"/Users/chiranjeevthomas/.vscode/extensions/dendron.dendron-0.119.0"}
+{"level":30,"time":1679485950632,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"No cache path for Segment specified. Failed event uploads will not be retried."}
+{"level":30,"time":1679485950632,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1679485950633,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1679485950633,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1679485950635,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"anonymous id","anonymousId":"w6ksv165kkdsofvn895t86i"}
+{"level":30,"time":1679485950717,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"DendronExtension","msg":"initialized"}
+{"level":30,"time":1679485953062,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"_activate","msg":"initializeWorkspace","wsType":"NONE","currentVersion":"0.119.0","previousGlobalVersion":"0.119.0","extensionInstallStatus":"NO_CHANGE"}
+{"level":30,"time":1679485953064,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"_activate","msg":"dendron not active"}
+{"level":30,"time":1679485953068,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1679485953068,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1679485953068,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1679485953069,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"anonymous id","anonymousId":"w6ksv165kkdsofvn895t86i"}
+{"level":30,"time":1679485953069,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","msg":"Telemetry is disabled? false"}
+{"level":30,"time":1679485953069,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","msg":"Segment Residual Cache Path is at /Users/chiranjeevthomas/Documents/chiranjeevs-blog/chiranjeevs-blog-next/~/root/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+{"level":30,"time":1679485953070,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"SegmentClient","msg":"Attempting to flush residual segment data from file."}
+{"level":30,"time":1679485953070,"pid":28210,"hostname":"chiranjeevs-MBP.bbrouter","name":"dendron","ctx":"showWelcomeOrWhatsNew","version":"0.119.0","previousExtensionVersion":"0.0.0"}

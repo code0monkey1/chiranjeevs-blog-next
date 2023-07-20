@@ -1,0 +1,18 @@
+2023-03-22 17:22:22.613 [info] update#setState idle
+2023-03-22 17:22:23.851 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-03-22 17:22:23.858 [info] [UtilityProcess id: 1, type: extensionHost, pid: 28210]: successfully created
+2023-03-22 17:22:38.635 [info] [UtilityProcess id: 1, type: extensionHost, pid: 28210]: enabling inspect port
+2023-03-22 17:22:52.396 [info] update#setState checking for updates
+2023-03-22 17:22:54.250 [info] update#setState downloading
+2023-03-22 17:23:11.218 [info] [UtilityProcess id: 1, type: extensionHost, pid: 28210]: received exit event with code 0
+2023-03-22 17:23:11.220 [info] Extension host with pid 28210 exited with code: 0, signal: unknown.
+2023-03-22 17:23:12.414 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-03-22 17:23:12.425 [info] [UtilityProcess id: 2, type: extensionHost, pid: 28445]: successfully created
+2023-03-22 17:23:19.933 [info] update#setState ready
+2023-03-22 17:24:42.101 [info] [UtilityProcess id: 2, type: extensionHost, pid: 28445]: received exit event with code 0
+2023-03-22 17:24:42.101 [info] Extension host with pid 28445 exited with code: 0, signal: unknown.
+2023-03-23 01:52:03.508 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-03-23 01:52:03.522 [info] [UtilityProcess id: 3, type: extensionHost, pid: 64127]: successfully created
+2023-03-23 01:52:06.381 [info] [UtilityProcess id: 3, type: extensionHost, pid: 64127]: waiting to exit...
+2023-03-23 01:52:10.950 [info] [UtilityProcess id: 3, type: extensionHost, pid: 64127]: received exit event with code 0
+2023-03-23 01:52:10.950 [info] Extension host with pid 64127 exited with code: 0, signal: unknown.

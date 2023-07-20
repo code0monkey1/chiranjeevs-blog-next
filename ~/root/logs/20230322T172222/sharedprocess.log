@@ -1,0 +1,10 @@
+2023-03-22 17:22:25.391 [info] Starting worker process with pid 28219 (type: fileWatcher, window: 1).
+2023-03-22 17:22:26.867 [info] Deleted from disk kiranshah.chatgpt-helper /Users/chiranjeevthomas/.vscode/extensions/kiranshah.chatgpt-helper-4.0.0
+2023-03-22 17:22:26.868 [info] Deleted from disk kiranshah.chatgpt-helper /Users/chiranjeevthomas/.vscode/extensions/kiranshah.chatgpt-helper-3.4.1
+2023-03-22 17:22:26.998 [info] Deleted from disk cschleiden.vscode-github-actions /Users/chiranjeevthomas/.vscode/extensions/cschleiden.vscode-github-actions-0.24.4
+2023-03-22 17:22:27.151 [info] Deleted from disk ms-vscode.vscode-typescript-next /Users/chiranjeevthomas/.vscode/extensions/ms-vscode.vscode-typescript-next-5.1.20230319
+2023-03-22 17:22:27.155 [info] Deleted from disk ms-vsliveshare.vsliveshare-audio /Users/chiranjeevthomas/.vscode/extensions/ms-vsliveshare.vsliveshare-audio-0.1.93
+2023-03-22 17:23:09.455 [info] Worker process with pid 28219 terminated normally (type: fileWatcher, window: 1).
+2023-03-22 17:23:12.389 [info] Starting worker process with pid 28444 (type: fileWatcher, window: 1).
+2023-03-22 17:24:41.640 [info] Worker process with pid 28444 terminated normally (type: fileWatcher, window: 1).
+2023-03-23 01:52:04.023 [info] Starting worker process with pid 64130 (type: fileWatcher, window: 3).

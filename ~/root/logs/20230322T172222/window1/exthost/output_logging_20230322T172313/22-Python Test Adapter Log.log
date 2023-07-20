@@ -1,0 +1,39 @@
+2023-03-22T11:53:28.045Z INFO unittest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:28.050Z  DBG unittest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:28.050Z INFO pytest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:28.052Z  DBG pytest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:28.052Z INFO testplan at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:28.058Z  DBG testplan at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:29.248Z INFO unittest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:29.250Z  DBG unittest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:29.250Z INFO pytest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:29.251Z  DBG pytest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:29.251Z INFO testplan at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:53:29.252Z  DBG testplan at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:53:29.804Z INFO unittest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.804Z INFO pytest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.804Z INFO testplan at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.804Z INFO unittest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.804Z INFO pytest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.804Z INFO testplan at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:53:29.807Z INFO unittest at 'typewriter': Unittest test discovery is disabled
+2023-03-22T11:53:29.808Z INFO pytest at 'typewriter': Pytest test discovery is disabled
+2023-03-22T11:53:29.808Z INFO pytest at 'typewriter': TestPlan test discovery is disabled
+2023-03-22T11:54:09.814Z INFO unittest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:09.816Z  DBG unittest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:09.816Z INFO pytest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:09.817Z  DBG pytest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:09.817Z INFO testplan at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:09.818Z  DBG testplan at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:09.821Z INFO unittest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:54:09.821Z INFO pytest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:54:09.821Z INFO testplan at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:54:16.261Z INFO unittest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:16.264Z  DBG unittest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:16.264Z INFO pytest at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:16.265Z  DBG pytest at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:16.265Z INFO testplan at 'typewriter': Reading configuration for workspace typewriter
+2023-03-22T11:54:16.266Z  DBG testplan at 'typewriter': usingNewInterpreterStorage feature flag is 'true'
+2023-03-22T11:54:16.282Z INFO unittest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:54:16.282Z INFO pytest at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11
+2023-03-22T11:54:16.282Z INFO testplan at 'typewriter': Using auto-detected pythonPath /usr/local/bin/python3.11

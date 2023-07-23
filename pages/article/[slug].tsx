@@ -8,7 +8,7 @@ import {
   LinkedinShareButton,
   RedditShareButton,
   TwitterShareButton,
-  WhatsappShareButton
+  WhatsappShareButton,
 } from 'next-share';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -20,175 +20,156 @@ import { fetchArticleBySlug } from '../../api/index';
 import Author from '../../components/Author';
 import { IArticle, ICollectionResponse } from '../../types';
 import { serializeMarkdown } from '../../utils';
-  
- type TPropTypes={
-  article:IArticle
-  notFound?:boolean
-}
 
-const  Slug=({article,notFound=false}:TPropTypes) =>{
+type TPropTypes = {
+  article: IArticle;
+  notFound?: boolean;
+};
 
-  const router= useRouter()
-  
-   if(notFound){
-    setTimeout(()=>{
-           router.back()
-    },1000)
+const Slug = ({ article, notFound = false }: TPropTypes) => {
+  const router = useRouter();
 
-    return<>
-     <h1 className="text-2xl my-12 text-center ">Blank Page , Redirecting Back to Home Page</h1>
-    </>
-   }
-  
-  const shareUrl=`https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`
+  if (notFound) {
+    setTimeout(() => {
+      router.back();
+    }, 1000);
 
-  return (<>
-  		
-     <Script src="https://sendfox.com/js/form.js"/> 
-    <Head>
-      <title>{article.attributes.Title}</title>
+    return (
+      <>
+        <h1 className="text-2xl my-12 text-center ">
+          Blank Page , Redirecting Back to Home Page
+        </h1>
+      </>
+    );
+  }
 
-    </Head>
-    <div className='grid lg:grid-cols-3 gap-12 my-12 '>
-      <div className="col-span-2">
-      <h1 className="text-3xl font-bold py-2 px-4">{article.attributes.Title}</h1>
-      <Author article={article} />
-      <div className="text-lg text-gray-600 leading-8 px-4 single-article">
+  const shareUrl = `https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`;
 
-            <Image  
-            unoptimized={true}
-            height={100}
-            width={100} 
-            className='w-full my-12 mb-6 h-auto rounded-lg ' alt={article.attributes.Title} src={`http://localhost:1337${article.attributes.Image.data[0].attributes.url}`}
-             />
-          
-           <MDXRemote {...(article.attributes.Body as MDXRemoteSerializeResult)} />
-      </div>
-  
-      </div>
+  return (
+    <>
+      <Script src="https://sendfox.com/js/form.js" />
+      <Head>
+        <title>{article.attributes.Title}</title>
+      </Head>
+      <div className="grid lg:grid-cols-3 gap-12 my-12 ">
+        <div className="col-span-2">
+          <h1 className="text-3xl font-bold py-2 px-4">
+            {article.attributes.Title}
+          </h1>
+          <Author article={article} />
+          <div className="text-lg text-gray-600 leading-8 px-4 single-article">
+            <Image
+              unoptimized={true}
+              height={100}
+              width={100}
+              className="w-full my-12 mb-6 h-auto rounded-lg "
+              alt={article.attributes.Title}
+              src={`http://localhost:1337${article.attributes.Image.data[0].attributes.url}`}
+            />
 
-      <div className=" col-span-1">
-
-			 <div className="sticky top-0">
-
-			
-                 
-                    <hr className="my-6 border-gray-100" />
-                    <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                        <span className="text-gray-500 mr-2">Share : </span>
-
-                         
-                        <a className="text-gray-500">
-                      <FacebookShareButton url={shareUrl} >
-                           <svg
-                                fill="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                className="w-5 h-5"
-                                viewBox="0 0 24 24">
-                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                            </svg> 
-                     </FacebookShareButton>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg
-                                fill="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                className="w-5 h-5"
-                                viewBox="0 0 24 24">
-                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg
-                                fill="none"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                className="w-5 h-5"
-                                viewBox="0 0 24 24">
-                                <rect
-                                    width="20"
-                                    height="20"
-                                    x="2"
-                                    y="2"
-                                    rx="5"
-                                    ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                            </svg>
-                        </a>
-                        <a className="ml-3 text-gray-500">
-                            <svg
-                                fill="currentColor"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="0"
-                                className="w-5 h-5"
-                                viewBox="0 0 24 24">
-                                <path
-                                    stroke="none"
-                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                                <circle
-                                    cx="4"
-                                    cy="4"
-                                    r="2"
-                                    stroke="none"></circle>
-                            </svg>
-                        </a>
-                       
-                          <a className="ml-3 text-gray-500">
-                            <EmailShareButton url={shareUrl}>
-                              <EmailIcon style={{width:35,height:22,borderRadius:"8rem"}}/>   
-                            </EmailShareButton>                     
-                          </a>
-                          
-                    </span>
-                    <hr className="my-6 border-gray-100" />
-                    
-             
-                </div>
-                
+            <MDXRemote
+              {...(article.attributes.Body as MDXRemoteSerializeResult)}
+            />
+          </div>
         </div>
-        
-     </div>
-     </>
-  )
-}
 
-export const getServerSideProps:GetServerSideProps = async ({query})=>{
-  
-    const queryString =qs.stringify({
-     populate:['Image','author.avatar'],
-     filters:{
-      Slug:{
-        $eq:query.slug
-      }
-     }
-  })
-  
+        <div className=" col-span-1">
+          <div className="sticky top-0">
+            <hr className="my-6 border-gray-100" />
+            <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <span className="text-gray-500 mr-2">Share : </span>
 
-  const {data:articles}: AxiosResponse<ICollectionResponse<IArticle[]>> = await fetchArticleBySlug(queryString)
-  
+              <a className="text-gray-500">
+                <FacebookShareButton url={shareUrl}>
+                  <svg
+                    fill="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </FacebookShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <TwitterShareButton url={shareUrl}>
+                  <svg
+                    fill="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </TwitterShareButton>
+              </a>
 
-  if(articles.data.length===0){
+              <a className="ml-3 text-gray-500">
+                <LinkedinShareButton url={shareUrl}>
+                  <svg
+                    fill="currentColor"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="0"
+                    className="w-5 h-5"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="none"
+                      d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                    ></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </LinkedinShareButton>
+              </a>
+
+              <a className="ml-3 text-gray-500">
+                <EmailShareButton url={shareUrl}>
+                  <EmailIcon
+                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
+                  />
+                </EmailShareButton>
+              </a>
+            </span>
+            <hr className="my-6 border-gray-100" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
+  const queryString = qs.stringify({
+    populate: ['Image', 'author.avatar'],
+    filters: {
+      Slug: {
+        $eq: query.Slug,
+      },
+    },
+  });
+
+  const { data: articles }: AxiosResponse<ICollectionResponse<IArticle[]>> =
+    await fetchArticleBySlug(queryString);
+
+  if (articles.data.length === 0) {
     return {
-      props:{
-       notFound:true
-    }
-    }
+      props: {
+        notFound: true,
+      },
+    };
   }
 
   return {
-    props:{
-       article:await serializeMarkdown(articles.data[0])
-    }
-  }
+    props: {
+      article: await serializeMarkdown(articles.data[0]),
+    },
+  };
+};
 
-}
-
-export default Slug
+export default Slug;

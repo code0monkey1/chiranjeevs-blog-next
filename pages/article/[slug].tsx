@@ -149,7 +149,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
     populate: ['Image', 'author.avatar'],
     filters: {
       Slug: {
-        $eq: query.Slug,
+        $eq: query.slug,
       },
     },
   });

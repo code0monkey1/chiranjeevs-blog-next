@@ -1,17 +1,15 @@
 /* eslint-disable @next/next/link-passhref */
 
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import React from 'react';
 import { IArticle } from '../types';
-import { formatDate } from '../utils';
 import Author from './Author';
+
 interface IPropType {
   article: IArticle;
 }
 const BlogCard = ({ article }: IPropType) => {
-  console.log('attributes', JSON.stringify(article.attributes, null, 2));
-
+  console.log('BlogCard slug', `/article/${article.attributes.Slug}`);
   return (
     <div>
       <Link href={`/article/${article.attributes.Slug}`}>

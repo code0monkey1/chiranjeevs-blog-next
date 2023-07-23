@@ -64,7 +64,7 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
               width={100}
               className="w-full my-12 mb-6 h-auto rounded-lg "
               alt={article.attributes.Title}
-              src={`http://localhost:1337${article.attributes.Image.data[0].attributes.url}`}
+              src={article.attributes.Image.data[0].attributes.url}
             />
 
             <MDXRemote

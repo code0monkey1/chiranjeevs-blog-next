@@ -34,12 +34,12 @@ export const debounce = (fn: (query: string) => void, timeout = 300) => {
 };
 
 export const serializeMarkdown = async (item: IArticle) => {
-  const Body = await serialize(item.attributes.Body as string);
+  const body = await serialize(item.attributes.body as string);
   return {
     ...item,
     attributes: {
       ...item.attributes,
-      Body,
+      body,
     },
   };
 };

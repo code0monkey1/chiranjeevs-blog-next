@@ -45,6 +45,8 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
 
   const shareUrl = `https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`;
 
+  const body = article.attributes.body;
+  console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
   return (
     <>
       <Script src="https://sendfox.com/js/form.js" />
@@ -68,7 +70,7 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
             />
 
             <MDXRemote
-              {...(article.attributes.Body as MDXRemoteSerializeResult)}
+              {...(article.attributes.body as MDXRemoteSerializeResult)}
             />
           </div>
         </div>

@@ -3,9 +3,22 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+const Subscribe: React.FC = () => (
+  <div className=" flex items-center cursor-pointer mt-2 px-4 ">
+    <Link
+      href="https://sendfox.com/vonnaden"
+      style={{ textDecoration: 'none' }}
+    >
+      <button className=" bg-primary h-auto p-2 rounded-md text-white  ">
+        Subscribe
+      </button>
+    </Link>
+  </div>
+);
+
 const NavBar = () => {
   return (
-    <nav className="flex justify-between">
+    <nav className="flex justify-between gap-40">
       <Link
         href="/"
         className='className="flex items-center cursor-pointer mt-5'
@@ -25,16 +38,7 @@ const NavBar = () => {
         </div>
       </Link>
 
-      <div className=" flex items-center cursor-pointer mt-2 ">
-        <Link
-          href="https://sendfox.com/vonnaden"
-          style={{ textDecoration: 'none' }}
-        >
-          <button className=" bg-primary h-auto p-2 rounded-md text-white">
-            Subscribe
-          </button>
-        </Link>
-      </div>
+      <Subscribe />
     </nav>
   );
 };

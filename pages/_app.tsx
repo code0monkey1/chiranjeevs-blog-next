@@ -5,15 +5,16 @@ import NavBar from '../components/NavBar';
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <>
-   
-   <div className="container mx-auto font-sans">
-    <NextNProgress color="#53BD95"/>
-    <NavBar/>
-       <main className="pb-32">
-        <Component {...pageProps}/>
-       </main>
-    <Footer/>
-   </div>
-  </>
+  return (
+    <>
+      <div className="container mx-auto font-sans ml-5">
+        <NextNProgress color="#53BD95" />
+        <NavBar />
+        <main className="pb-32">
+          <Component {...pageProps} />
+        </main>
+        <Footer />
+      </div>
+    </>
+  );
 }

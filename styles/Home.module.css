@@ -17,6 +17,11 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
+@media (max-width: 640px) {
+  .text-primary {
+    font-size: 0.875rem;
+  }
+}
 
 .description a {
   display: flex;

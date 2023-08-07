@@ -9,7 +9,7 @@ interface IPropType {
 const BlogCardWithImage = ({ article }: IPropType) => {
   return (
     <div className="bg-gradient-to-r from-green-500 to-green-400 rounded-md flex items-center h-64 justify-around">
-      <Link href={`/article/${article.attributes.Slug}`} className="px-8 ">
+      <Link href={`/article/${article.attributes.Slug}`} className="px-4 ">
         <span
           className=" text-2xl w-2/3 text-white p-6 after:content-[''] font-bold after:content-end after:bg-white after:block after:w-20 after:h-1 
                 after:m-6  

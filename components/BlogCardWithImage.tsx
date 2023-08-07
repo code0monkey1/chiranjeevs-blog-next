@@ -20,7 +20,7 @@ const BlogCardWithImage = ({ article }: IPropType) => {
             `${article.attributes.Title.length > 45 ? '...' : ''}`}
         </span>
       </Link>
-      <Image alt="book" src="/brain.svg" width={140} height={140} />
+      <Image alt="book" src="/thought.svg" width={140} height={140} />
     </div>
   );
 };

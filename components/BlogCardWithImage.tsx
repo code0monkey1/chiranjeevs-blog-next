@@ -21,7 +21,7 @@ const BlogCardWithImage = ({ article }: IPropType) => {
       </Link>
       <Image
         alt="book"
-        src="/grey-cat.svg"
+        src="/thinking-cat.svg"
         width={140}
         height={140}
         className="px-2"

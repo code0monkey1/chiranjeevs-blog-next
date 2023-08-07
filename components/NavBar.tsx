@@ -31,7 +31,7 @@ const NavBar = () => {
             height={90}
             className="md:ml-0 h-20 w-20 mt-6 md:h-32 md:w-32 md:mt-0"
           />
-          <span className=" text-primary text-7xl mt-7 ml-2 font-black pb-4  ">
+          <span className=" text-primary text-sm mt-7 ml-2 font-black pb-4  ">
             {' '}
             {'Existential Nihilism'}
           </span>

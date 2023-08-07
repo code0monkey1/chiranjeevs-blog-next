@@ -6,5 +6,6 @@
     "lastname",
     "unoptimized"
   ],
-  "editor.acceptSuggestionOnEnter": "on"
+  "editor.acceptSuggestionOnEnter": "on",
+  "gitdoc.enabled": true
 }

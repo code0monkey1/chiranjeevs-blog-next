@@ -55,7 +55,6 @@ const Home: NextPage<IPropTypes> = ({ categories, articles }) => {
 };
 // special named function to render props server side into the component
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
-  console.log('running');
   // Articles
   const options: Partial<IQueryOptions> = {
     populate: ['author.avatar'],

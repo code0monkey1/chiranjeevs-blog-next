@@ -13,7 +13,7 @@ const BlogCard = ({ article }: IPropType) => {
   return (
     <div>
       <Link href={`/article/${article.attributes.Slug}`}>
-        <h1 className="px-4 my-4 text-3xl border-l-8 text-gray-600  font-bold hover:decoration-2 hover:underline hover:cursor-pointer hover:decoration-primary ">
+        <h1 className="px-4 my-4 text-2xl border-l-8 text-gray-600  font-bold hover:decoration-2 hover:underline hover:cursor-pointer hover:decoration-primary ">
           {article.attributes.Title}
         </h1>
       </Link>

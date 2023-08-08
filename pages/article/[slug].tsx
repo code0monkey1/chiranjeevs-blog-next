@@ -55,7 +55,7 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
       </Head>
       <div className="grid lg:grid-cols-3 gap-12 my-12 ">
         <div className="col-span-2">
-          <h1 className="text-3xl  font-extrabold py-2 px-4">
+          <h1 className="text-3xl font-extrabold py-2 px-4">
             {article.attributes.Title}
           </h1>
           <Author article={article} />

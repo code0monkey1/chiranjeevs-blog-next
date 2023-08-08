@@ -9,7 +9,6 @@ interface IPropType {
   article: IArticle;
 }
 const BlogCard = ({ article }: IPropType) => {
-  console.log('BlogCard slug', `/article/${article.attributes.Slug}`);
   return (
     <div>
       <Link href={`/article/${article.attributes.Slug}`}>

@@ -77,8 +77,8 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
 
         <div className=" col-span-1">
           <div className="sticky top-0">
-            <hr className=" py-2 border-gray-200" />
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <hr className="my-4 py-1 border-gray-200" />
+            <span className=" inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <span className="text-gray-500 mr-2">Share : </span>
 
               <a className="text-gray-500">

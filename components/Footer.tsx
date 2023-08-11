@@ -81,6 +81,14 @@ function Footer() {
           </a>
         </span>
       </div>
+      <br />
+
+      <script
+        src="https://static.elfsight.com/platform/platform.js"
+        data-use-service-core
+        defer
+      ></script>
+      <div className="elfsight-app-8f5b245d-9317-48ea-820b-073914461a75"></div>
     </footer>
   );
 }

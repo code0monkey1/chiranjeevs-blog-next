@@ -1,6 +1,7 @@
 import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
+
 import {
   EmailIcon,
   EmailShareButton,

@@ -1,5 +1,6 @@
 import { serialize } from 'next-mdx-remote/serialize';
 import RSS from 'rss';
+import { URL } from '../config';
 import { IArticle } from '../types';
 export const formatDate = (dateString: string): string => {
   const date = new Date(dateString).toLocaleDateString('en-US', {
@@ -45,7 +46,7 @@ export const serializeMarkdown = async (item: IArticle) => {
 };
 
 export const generateRSSFeed = async () => {
-  const site_url = 'localhost:3000';
+  const site_url = URL!;
 
   const feedOptions = {
     title: 'Blog posts | RSS Feed',
@@ -54,7 +55,7 @@ export const generateRSSFeed = async () => {
     feed_url: `${site_url}/rss.xml`,
     image_url: `${site_url}/logo.png`,
     pubDate: new Date(),
-    copyright: `All rights reserved ${new Date().getFullYear()}, Ibas`,
+    copyright: `All rights reserved ${new Date().getFullYear()}, Chiranjeev`,
   };
 
   const feed = new RSS(feedOptions);

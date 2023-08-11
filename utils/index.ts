@@ -47,7 +47,7 @@ export const serializeMarkdown = async (item: IArticle) => {
 
 export const generateRSSFeed = async () => {
   const site_url = URL!;
-
+  console.log('✅ Site URL', site_url);
   const feedOptions = {
     title: 'Blog posts | RSS Feed',
     description: 'Welcome to this blog posts!',

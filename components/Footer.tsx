@@ -21,7 +21,7 @@ function Footer() {
             </span>
           </div>
         </Link>
-        <div className="mx-60">
+        <div className="mx-60" style={{ marginBottom: '-10rem' }}>
           <script
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core

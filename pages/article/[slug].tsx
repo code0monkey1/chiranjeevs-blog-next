@@ -19,6 +19,7 @@ import qs from 'qs';
 import React from 'react';
 import { fetchArticleBySlug } from '../../api/index';
 import Author from '../../components/Author';
+import { URL } from '../../config';
 import { IArticle, ICollectionResponse } from '../../types';
 import { serializeMarkdown } from '../../utils';
 
@@ -27,7 +28,7 @@ type TPropTypes = {
   notFound?: boolean;
 };
 
-const Slug = ({ article, notFound = false }: TPropTypes) => {
+const Article = ({ article, notFound = false }: TPropTypes) => {
   const router = useRouter();
 
   if (notFound) {
@@ -44,7 +45,7 @@ const Slug = ({ article, notFound = false }: TPropTypes) => {
     );
   }
 
-  const shareUrl = `https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`;
+  const shareUrl = `${URL}/article/${article.attributes.Slug}`;
 
   const body = article.attributes.body;
   console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
@@ -175,4 +176,4 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   };
 };
 
-export default Slug;
+export default Article;

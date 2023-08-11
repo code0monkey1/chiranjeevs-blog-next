@@ -30,7 +30,7 @@ type TPropTypes = {
 
 const Article = ({ article, notFound = false }: TPropTypes) => {
   const router = useRouter();
-
+  console.log(`🥰 Article ${article.attributes.Title} loaded`);
   count.visits().then((result) => {
     console.log(` 💔  ${article.attributes.Title} Count : ${result.value} `);
   });

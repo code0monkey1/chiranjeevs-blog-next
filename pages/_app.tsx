@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <div className="container mx-auto font-sans ml-5">
-        <GoogleAnalytics trackPageViews />
+        <GoogleAnalytics trackPageViews={{ ignoreHashChange: true }} />
         <NextNProgress color="#53BD95" />
         <NavBar />
         <main className="pb-32">

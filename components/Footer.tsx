@@ -21,6 +21,14 @@ function Footer() {
             </span>
           </div>
         </Link>
+        <div>
+          <script
+            src="https://static.elfsight.com/platform/platform.js"
+            data-use-service-core
+            defer
+          ></script>
+          <div className="elfsight-app-8f5b245d-9317-48ea-820b-073914461a75 "></div>
+        </div>
         <span className="inline-flex sm:ml-auto sm:mt-0 pt-8 justify-center sm:justify-start">
           <a
             href="https://github.com/code0monkey1"
@@ -82,13 +90,6 @@ function Footer() {
         </span>
       </div>
       <br />
-
-      <script
-        src="https://static.elfsight.com/platform/platform.js"
-        data-use-service-core
-        defer
-      ></script>
-      <div className="elfsight-app-8f5b245d-9317-48ea-820b-073914461a75"></div>
     </footer>
   );
 }

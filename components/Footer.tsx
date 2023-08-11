@@ -21,7 +21,7 @@ function Footer() {
             </span>
           </div>
         </Link>
-        <div>
+        <div className="m-10">
           <script
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core
@@ -89,7 +89,6 @@ function Footer() {
           </a>
         </span>
       </div>
-      <br />
     </footer>
   );
 }

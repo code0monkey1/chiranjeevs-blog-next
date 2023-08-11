@@ -2,6 +2,7 @@ import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 
+import count from 'countapi-js';
 import {
   EmailIcon,
   EmailShareButton,
@@ -22,7 +23,6 @@ import Author from '../../components/Author';
 import { URL } from '../../config';
 import { IArticle, ICollectionResponse } from '../../types';
 import { serializeMarkdown } from '../../utils';
-
 type TPropTypes = {
   article: IArticle;
   notFound?: boolean;
@@ -30,6 +30,10 @@ type TPropTypes = {
 
 const Article = ({ article, notFound = false }: TPropTypes) => {
   const router = useRouter();
+
+  count.visits().then((result) => {
+    console.log(` 💔  ${article.attributes.Title} Count : ${result.value} `);
+  });
 
   if (notFound) {
     setTimeout(() => {

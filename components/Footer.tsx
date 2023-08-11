@@ -21,16 +21,20 @@ function Footer() {
             </span>
           </div>
         </Link>
-        <div
-          className="mx-60"
-          style={{ marginBottom: '-10rem', backgroundColor: 'black' }}
-        >
+        <div className="mx-60">
           <script
             src="https://static.elfsight.com/platform/platform.js"
             data-use-service-core
             defer
           ></script>
-          <div className="elfsight-app-8f5b245d-9317-48ea-820b-073914461a75 "></div>
+          <div
+            className="elfsight-app-8f5b245d-9317-48ea-820b-073914461a75 "
+            style={{
+              marginBottom: '-20rem',
+              border: '0.5px black solid',
+              padding: '0',
+            }}
+          ></div>
         </div>
         <br />
         <br />

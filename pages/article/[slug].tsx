@@ -157,8 +157,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
           {' '}
           <Giscus
             id="comments"
-            repo="giscus/giscus-component"
-            repoId="MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
+            repo="https://github.com/code0monkey1/chiranjeevs-blog-next"
+            repoId="R_kgDOJ9vRZA"
             category="Announcements"
             categoryId="DIC_kwDOF1L2fM4B-hVS"
             mapping="specific"

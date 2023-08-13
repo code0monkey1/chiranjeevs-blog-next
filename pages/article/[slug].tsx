@@ -158,7 +158,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
           <Giscus
             id="comments"
             repo="giscus/giscus-component"
-            repoId="rest-api-using-typescript-crud"
+            repoId="MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
             category="Announcements"
             categoryId="DIC_kwDOF1L2fM4B-hVS"
             mapping="specific"

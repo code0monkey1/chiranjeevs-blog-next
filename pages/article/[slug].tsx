@@ -86,7 +86,24 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
             />
           </div>
         </div>
-
+        <div style={{ width: '50vw' }}>
+          {' '}
+          <Giscus
+            id="comments"
+            repo="giscus/giscus-component"
+            repoId="MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
+            category="Announcements"
+            categoryId="DIC_kwDOF1L2fM4B-hVS"
+            mapping="specific"
+            term="Welcome to @giscus/react component!"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="light"
+            lang="en"
+            loading="lazy"
+          />
+        </div>
         <div className=" col-span-1">
           <div className="sticky top-0">
             <hr className="my-4 py-1 border-gray-200" />
@@ -152,24 +169,6 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
             </span>
             <hr className="my-2 border-gray-200" />
           </div>
-        </div>
-        <div style={{ width: '50vw' }}>
-          {' '}
-          <Giscus
-            id="comments"
-            repo="giscus/giscus-component"
-            repoId="MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
-            category="Announcements"
-            categoryId="DIC_kwDOF1L2fM4B-hVS"
-            mapping="specific"
-            term="Welcome to @giscus/react component!"
-            reactionsEnabled="1"
-            emitMetadata="0"
-            inputPosition="top"
-            theme="light"
-            lang="en"
-            loading="lazy"
-          />
         </div>
       </div>
     </>

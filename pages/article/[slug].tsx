@@ -1,6 +1,7 @@
 import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { URL } from '../../config';
 
 import count from 'countapi-js';
 import {
@@ -20,7 +21,7 @@ import qs from 'qs';
 import React from 'react';
 import { fetchArticleBySlug } from '../../api/index';
 import Author from '../../components/Author';
-import { URL } from '../../config';
+
 import { IArticle, ICollectionResponse } from '../../types';
 import { serializeMarkdown } from '../../utils';
 type TPropTypes = {

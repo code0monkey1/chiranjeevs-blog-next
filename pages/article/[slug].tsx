@@ -155,7 +155,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
         </div>
         <br />
       </div>
-      <div className="w-auto">
+      <div className="w-auto justify-center text-center ml-1">
         {' '}
         <Giscus
           id="comments"

@@ -2,7 +2,9 @@ import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { NEXT_PUBLIC_URL, URL } from '../../config';
-console.log('🚀 ~ file: [slug].tsx:5 ~ URL:');
+console.log('🚀 ~ file: [slug].tsx:5 ~  NEXT_PUBLIC_URL:', NEXT_PUBLIC_URL);
+
+console.log('URL:', URL);
 
 import count from 'countapi-js';
 import {

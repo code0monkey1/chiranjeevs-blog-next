@@ -1,1 +1,1 @@
-export const { URL } = process.env;
+export const { NEXT_PUBLIC_URL } = process.env;

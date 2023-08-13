@@ -1,9 +1,9 @@
+import Giscus from '@giscus/react';
 import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { NEXT_PUBLIC_URL, URL } from '../../config';
 console.log('🚀 ~ file: [slug].tsx:5 ~  NEXT_PUBLIC_URL:', NEXT_PUBLIC_URL);
-
 console.log('URL:', URL);
 
 import count from 'countapi-js';
@@ -152,6 +152,24 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
             </span>
             <hr className="my-2 border-gray-200" />
           </div>
+        </div>
+        <div style={{ width: '100%' }}>
+          {' '}
+          <Giscus
+            id="comments"
+            repo="giscus/giscus-component"
+            repoId="rest-api-using-typescript-crud"
+            category="Announcements"
+            categoryId="DIC_kwDOF1L2fM4B-hVS"
+            mapping="specific"
+            term="Welcome to @giscus/react component!"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="light"
+            lang="en"
+            loading="lazy"
+          />
         </div>
       </div>
     </>

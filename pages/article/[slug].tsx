@@ -163,7 +163,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
           repoId="R_kgDOJ9vRZA"
           category="Q&A"
           categoryId="DIC_kwDOJ9vRZM4CYkyq"
-          mapping="specific"
+          mapping="pathname"
           term="Welcome to @giscus/react component!"
           reactionsEnabled="1"
           emitMetadata="0"

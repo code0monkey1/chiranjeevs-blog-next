@@ -51,6 +51,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
   const shareUrl = `${URL}/article/${article.attributes.Slug}`;
 
+  console.log('🚀 ~ file: [slug].tsx:54 ~ Article ~ shareUrl:', shareUrl);
+
   const body = article.attributes.body;
   console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
   return (

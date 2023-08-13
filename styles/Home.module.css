@@ -72,6 +72,13 @@
   max-width: 30ch;
 }
 
+.li {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
 .center {
   display: flex;
   justify-content: center;

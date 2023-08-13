@@ -153,12 +153,12 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
             <hr className="my-2 border-gray-200" />
           </div>
         </div>
-        <div style={{ width: '100%' }}>
+        <div style={{ width: '50vw' }}>
           {' '}
           <Giscus
             id="comments"
-            repo="https://github.com/code0monkey1/chiranjeevs-blog-next"
-            repoId="R_kgDOJ9vRZA"
+            repo="giscus/giscus-component"
+            repoId="MDEwOlJlcG9zaXRvcnkzOTEzMTMwMjA="
             category="Announcements"
             categoryId="DIC_kwDOF1L2fM4B-hVS"
             mapping="specific"

@@ -1,6 +1,4 @@
 import { serialize } from 'next-mdx-remote/serialize';
-
-import { URL } from '../config';
 import { IArticle } from '../types';
 export const formatDate = (dateString: string): string => {
   const date = new Date(dateString).toLocaleDateString('en-US', {

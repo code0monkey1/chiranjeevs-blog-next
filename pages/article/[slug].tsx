@@ -2,6 +2,7 @@ import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { URL } from '../../config';
+console.log('🚀 ~ file: [slug].tsx:5 ~ URL:', URL);
 
 import count from 'countapi-js';
 import {
@@ -50,7 +51,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
     );
   }
 
-  const shareUrl = `${URL}/article/${article.attributes.Slug}`;
+  const shareUrl = `${process.env.URL}/article/${article.attributes.Slug}`;
 
   console.log('🚀 ~ file: [slug].tsx:54 ~ Article ~ shareUrl:', shareUrl);
 

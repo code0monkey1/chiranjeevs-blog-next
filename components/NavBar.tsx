@@ -31,10 +31,10 @@ const NavBar = () => {
             height={90}
             className="md:ml-0 h-20 w-20 mt-6 md:h-32 md:w-32 md:mt-0"
           />
-          <span className=" text-primary text-6xl mt-4 ml-2 font-black pb-4 hidden md:block logo-text">
+          <span className=" text-primary text-6xl mt-5 ml-2 font-black pb-4 hidden md:block logo-text">
             Existential Nihilism
           </span>
-          <span className=" text-primary text-3xl mt-4 ml-2 font-black pb-4 block md:hidden logo-text">
+          <span className=" text-primary text-3xl mt-5 ml-2 font-black pb-4 block md:hidden logo-text">
             Existential Nihilism
           </span>
         </div>

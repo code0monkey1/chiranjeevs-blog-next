@@ -53,7 +53,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
     );
   }
 
-  const shareUrl = `${NEXT_PUBLIC_URL}/article/${article.attributes.Slug}`;
+  const shareUrl = `https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`;
 
   console.log('🚀 ~ file: [slug].tsx:54 ~ Article ~ shareUrl:', shareUrl);
 

@@ -33,13 +33,13 @@ const NavBar = () => {
           />
           <span
             className=" text-primary text-6xl mt-5 ml-2 font-black pb-4 hidden md:block logo-text"
-            style={{ fontFamily: "font-family: 'Courgette', cursive;" }}
+            style={{ fontFamily: ' Courgette, cursive' }}
           >
             Existential Nihilism
           </span>
           <span
             className=" text-primary text-3xl mt-5 ml-2 font-black pb-4 block md:hidden logo-text"
-            style={{ fontFamily: "font-family: 'Courgette', cursive;" }}
+            style={{ fontFamily: 'Courgette, cursive' }}
           >
             Existential Nihilism
           </span>

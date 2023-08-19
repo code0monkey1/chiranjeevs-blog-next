@@ -54,7 +54,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
     return (
       <>
         <h1 className="text-2xl my-12 text-center ">
-          Blank Page , Redirecting Back to Home Page
+          Blank Page , Redirecting Back to the Home Page
         </h1>
       </>
     );
@@ -67,44 +67,43 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
   const body = article.attributes.body;
   console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
   return (
-    article && (
-      <>
-        <Script src="https://sendfox.com/js/form.js" />
-        <Head>
-          <title>{article.attributes.Title}</title>
-        </Head>
-        <div className="grid lg:grid-cols-3 gap-12 my-12 ">
-          <div className="col-span-2">
-            <h1 className="text-4xl  font-extrabold py-2 px-6 border-y-2 text-gray-600 my-4">
-              {article.attributes.Title}
-            </h1>
-            <Author article={article} />
-            <div className="text-lg text-gray-600 leading-8 px-4 single-article">
-              <Image
-                unoptimized={true}
-                height={100}
-                width={100}
-                className="w-full my-12 mb-6 h-auto rounded-lg "
-                alt={article.attributes.Title}
-                src={article.attributes.Image.data[0].attributes.url}
-              />
+    <>
+      <Script src="https://sendfox.com/js/form.js" />
+      <Head>
+        <title>{article.attributes.Title}</title>
+      </Head>
+      <div className="grid lg:grid-cols-3 gap-12 my-12 ">
+        <div className="col-span-2">
+          <h1 className="text-4xl  font-extrabold py-2 px-6 border-y-2 text-gray-600 my-4">
+            {article.attributes.Title}
+          </h1>
+          <Author article={article} />
+          <div className="text-lg text-gray-600 leading-8 px-4 single-article">
+            <Image
+              unoptimized={true}
+              height={100}
+              width={100}
+              className="w-full my-12 mb-6 h-auto rounded-lg "
+              alt={article.attributes.Title}
+              src={article.attributes.Image.data[0].attributes.url}
+            />
 
-              <MDXRemote
-                {...(article.attributes.body as MDXRemoteSerializeResult)}
-              />
-            </div>
+            <MDXRemote
+              {...(article.attributes.body as MDXRemoteSerializeResult)}
+            />
           </div>
+        </div>
 
-          <div className=" col-span-1">
-            <div className="sticky top-0">
-              <hr className="my-4 py-1 border-gray-200" />
-              <span className=" inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                <span className="text-gray-500 mr-2">Share : </span>
+        <div className=" col-span-1">
+          <div className="sticky top-0">
+            <hr className="my-4 py-1 border-gray-200" />
+            <span className=" inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <span className="text-gray-500 mr-2">Share : </span>
 
-                <a className="ml-3 text-gray-500">
-                  <FacebookShareButton url={shareUrl}>
-                    <FacebookIcon className="w-6 h-6 mx-2" />
-                    {/* <svg
+              <a className="ml-3 text-gray-500">
+                <FacebookShareButton url={shareUrl}>
+                  <FacebookIcon className="w-6 h-6 mx-2" />
+                  {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -114,12 +113,12 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   >
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg> */}
-                  </FacebookShareButton>
-                </a>
-                <a className="ml-3 text-gray-500">
-                  <TwitterShareButton url={shareUrl}>
-                    <TwitterIcon className="w-6 h-6 mx-2" />
-                    {/* <svg
+                </FacebookShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <TwitterShareButton url={shareUrl}>
+                  <TwitterIcon className="w-6 h-6 mx-2" />
+                  {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -129,13 +128,13 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   >
                     <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                   </svg> */}
-                  </TwitterShareButton>
-                </a>
+                </TwitterShareButton>
+              </a>
 
-                <a className="ml-3 text-gray-500">
-                  <LinkedinShareButton url={shareUrl}>
-                    <LinkedinIcon className="w-6 h-6 mx-2" />
-                    {/* <svg
+              <a className="ml-3 text-gray-500">
+                <LinkedinShareButton url={shareUrl}>
+                  <LinkedinIcon className="w-6 h-6 mx-2" />
+                  {/* <svg
                     fill="currentColor"
                     stroke="currentColor"
                     strokeLinecap="round"
@@ -150,55 +149,54 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                     ></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg> */}
-                  </LinkedinShareButton>
-                </a>
+                </LinkedinShareButton>
+              </a>
 
-                <a className="ml-3 text-gray-500">
-                  <EmailShareButton url={shareUrl}>
-                    <EmailIcon className="w-6 h-6 mx-2" />
-                  </EmailShareButton>
-                </a>
-                <a className="ml-3 text-gray-500">
-                  <WhatsappShareButton url={shareUrl}>
-                    <WhatsappIcon className="w-6 h-6 mx-2" />
-                  </WhatsappShareButton>
-                </a>
-                <a className="ml-3 text-gray-500">
-                  <TelegramShareButton url={shareUrl}>
-                    <TelegramIcon className="w-6 h-6 mx-2" />
-                  </TelegramShareButton>
-                </a>
-                <a className="ml-3 text-gray-500">
-                  <RedditShareButton url={shareUrl}>
-                    <RedditIcon className="w-6 h-6 mx-2" />
-                  </RedditShareButton>
-                </a>
-              </span>
-              <hr className="my-2 border-gray-200" />
-            </div>
+              <a className="ml-3 text-gray-500">
+                <EmailShareButton url={shareUrl}>
+                  <EmailIcon className="w-6 h-6 mx-2" />
+                </EmailShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <WhatsappShareButton url={shareUrl}>
+                  <WhatsappIcon className="w-6 h-6 mx-2" />
+                </WhatsappShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <TelegramShareButton url={shareUrl}>
+                  <TelegramIcon className="w-6 h-6 mx-2" />
+                </TelegramShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <RedditShareButton url={shareUrl}>
+                  <RedditIcon className="w-6 h-6 mx-2" />
+                </RedditShareButton>
+              </a>
+            </span>
+            <hr className="my-2 border-gray-200" />
           </div>
-          <br />
         </div>
-        <div className="max-w-8xl mx-auto">
-          {' '}
-          <Giscus
-            id="comments"
-            repo="code0monkey1/chiranjeevs-blog-next"
-            repoId="R_kgDOJ9vRZA"
-            category="Q&A"
-            categoryId="DIC_kwDOJ9vRZM4CYkyq"
-            mapping="pathname"
-            term="Welcome to @giscus/react component!"
-            reactionsEnabled="1"
-            emitMetadata="0"
-            inputPosition="top"
-            theme="light"
-            lang="en"
-            loading="lazy"
-          />
-        </div>
-      </>
-    )
+        <br />
+      </div>
+      <div className="max-w-8xl mx-auto">
+        {' '}
+        <Giscus
+          id="comments"
+          repo="code0monkey1/chiranjeevs-blog-next"
+          repoId="R_kgDOJ9vRZA"
+          category="Q&A"
+          categoryId="DIC_kwDOJ9vRZM4CYkyq"
+          mapping="pathname"
+          term="Welcome to @giscus/react component!"
+          reactionsEnabled="1"
+          emitMetadata="0"
+          inputPosition="top"
+          theme="light"
+          lang="en"
+          loading="lazy"
+        />
+      </div>
+    </>
   );
 };
 

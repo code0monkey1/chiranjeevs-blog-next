@@ -10,6 +10,7 @@ import count from 'countapi-js';
 import {
   EmailIcon,
   EmailShareButton,
+  FacebookIcon,
   FacebookShareButton,
   LinkedinShareButton,
   RedditIcon,
@@ -99,7 +100,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="text-gray-500">
                 <FacebookShareButton url={shareUrl}>
-                  <svg
+                  <FacebookIcon />
+                  {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -108,7 +110,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                     viewBox="0 0 24 24"
                   >
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
+                  </svg> */}
                 </FacebookShareButton>
               </a>
               <a className="ml-3 text-gray-500">
@@ -166,6 +168,13 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                     style={{ width: 35, height: 22, borderRadius: '8rem' }}
                   />
                 </TelegramShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <RedditShareButton url={shareUrl}>
+                  <RedditIcon
+                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
+                  />
+                </RedditShareButton>
               </a>
             </span>
             <hr className="my-2 border-gray-200" />

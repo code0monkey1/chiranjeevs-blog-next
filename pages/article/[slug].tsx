@@ -3,10 +3,7 @@ import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { NEXT_PUBLIC_URL, URL } from '../../config';
-console.log('🚀 ~ file: [slug].tsx:5 ~  NEXT_PUBLIC_URL:', NEXT_PUBLIC_URL);
-console.log('URL:', URL);
 
-import count from 'countapi-js';
 import {
   EmailIcon,
   EmailShareButton,
@@ -97,9 +94,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
         <div className=" col-span-1">
           <div className="sticky top-0">
             <hr className="my-4 py-1 border-gray-200" />
-            <span className=" inline-flex sm:ml-auto sm:mt-0 my-3 justify-center sm:justify-start">
-              <span className="text-gray-500">Share : </span>
-
+            <span className=" inline-flex sm:ml-auto sm:mt-0 py-0 my-3 justify-center sm:justify-start ">
+              <span className="text-gray-500 py-0">Share : </span>
               <a className="ml-3 text-gray-500">
                 <FacebookShareButton
                   url={shareUrl}

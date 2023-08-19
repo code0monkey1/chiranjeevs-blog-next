@@ -169,7 +169,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
               <a className="ml-3 text-gray-500">
                 <RedditShareButton url={shareUrl}>
-                  <RedditIcon className="w-5 h-5" />
+                  <RedditIcon className="w-6 h-6 mx-2" />
                 </RedditShareButton>
               </a>
             </span>

@@ -56,10 +56,10 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
   const shareUrl = `https://www.chiranjeevthomas.com/article/${article.attributes.Slug}`;
 
-  console.log('🚀 ~ file: [slug].tsx:54 ~ Article ~ shareUrl:', shareUrl);
+  // console.log('🚀 ~ file: [slug].tsx:54 ~ Article ~ shareUrl:', shareUrl);
 
-  const body = article.attributes.body;
-  console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
+  // const body = article.attributes.body;
+  // console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
   return (
     <>
       <Script src="https://sendfox.com/js/form.js" />

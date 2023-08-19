@@ -71,7 +71,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
       </Head>
       <div className="grid lg:grid-cols-3 gap-12 my-12 ">
         <div className="col-span-2">
-          <h1 className="text-4xl  font-extrabold py-4 px-6 border-y-2 text-gray-600 my-6 ">
+          <h1 className="text-4xl  font-extrabold py-6  px-6 border-y-2 text-gray-600 my-4  ">
             {article.attributes.Title}
           </h1>
           <Author article={article} />
@@ -94,8 +94,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
         <div className=" col-span-1">
           <div className="sticky top-0">
             <hr className="my-4 py-1 border-gray-200" />
-            <span className=" inline-flex sm:ml-auto sm:mt-0 py-0 my-3 justify-center sm:justify-start ">
-              <span className="text-gray-500 py-0">Share : </span>
+            <span className=" inline-flex sm:ml-auto sm:mt-0  my-3 justify-center sm:justify-start ">
+              <span className="text-gray-500 ">Share : </span>
               <a className="ml-3 text-gray-500">
                 <FacebookShareButton
                   url={shareUrl}

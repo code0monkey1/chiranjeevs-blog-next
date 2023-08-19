@@ -98,9 +98,9 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
             <span className=" inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <span className="text-gray-500 mr-2">Share : </span>
 
-              <a className="text-gray-500">
+              <a className="ml-3 text-gray-500">
                 <FacebookShareButton url={shareUrl}>
-                  <FacebookIcon />
+                  <FacebookIcon className="w-2" />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"

@@ -74,7 +74,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
       </Head>
       <div className="grid lg:grid-cols-3 gap-12 my-12 ">
         <div className="col-span-2">
-          <h1 className="text-4xl  font-extrabold py-2 px-6 border-y-2 text-gray-600 my-4">
+          <h1 className="text-4xl  font-extrabold py-4 px-6 border-y-2 text-gray-600 my-6 ">
             {article.attributes.Title}
           </h1>
           <Author article={article} />

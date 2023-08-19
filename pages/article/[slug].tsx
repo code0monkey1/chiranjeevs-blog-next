@@ -132,7 +132,12 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
 
               <a className="ml-3 text-gray-500">
-                <LinkedinShareButton url={shareUrl}>
+                <LinkedinShareButton
+                  title={article.attributes.Title}
+                  summary={article.attributes.shortDescription}
+                  source={shareUrl}
+                  url={shareUrl}
+                >
                   <LinkedinIcon className="w-6 h-6 mx-2" />
                   {/* <svg
                     fill="currentColor"
@@ -153,7 +158,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
 
               <a className="ml-3 text-gray-500">
-                <EmailShareButton url={shareUrl}>
+                <EmailShareButton
+                  subject={article.attributes.Title}
+                  body={article.attributes.shortDescription}
+                  url={shareUrl}
+                >
                   <EmailIcon className="w-6 h-6 mx-2" />
                 </EmailShareButton>
               </a>

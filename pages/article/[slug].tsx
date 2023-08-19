@@ -2,15 +2,11 @@ import Giscus from '@giscus/react';
 import { AxiosResponse } from 'axios';
 import { GetServerSideProps } from 'next';
 import { MDXRemote, MDXRemoteSerializeResult } from 'next-mdx-remote';
-import { NEXT_PUBLIC_URL, URL } from '../../config';
-
 import {
   EmailIcon,
   EmailShareButton,
   FacebookIcon,
   FacebookShareButton,
-  LinkedinIcon,
-  LinkedinShareButton,
   RedditIcon,
   RedditShareButton,
   TelegramIcon,
@@ -26,6 +22,7 @@ import { useRouter } from 'next/router';
 import Script from 'next/script';
 import qs from 'qs';
 import React from 'react';
+import { LinkedinIcon, LinkedinShareButton } from 'react-share';
 import { fetchArticleBySlug } from '../../api/index';
 import Author from '../../components/Author';
 

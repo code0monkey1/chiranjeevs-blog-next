@@ -139,12 +139,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
 
               <a className="ml-3 text-gray-500">
-                <LinkedinShareButton
-                  title={article.attributes.Title}
-                  summary={article.attributes.shortDescription}
-                  source={shareUrl}
-                  url={shareUrl}
-                >
+                <LinkedinShareButton url={shareUrl}>
                   <LinkedinIcon round={true} size={30} />
                   {/* <svg
                     fill="currentColor"

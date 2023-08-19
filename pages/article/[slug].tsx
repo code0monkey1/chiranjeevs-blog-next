@@ -120,7 +120,10 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                 </FacebookShareButton>
               </a>
               <a className="ml-3 text-gray-500">
-                <TwitterShareButton url={shareUrl}>
+                <TwitterShareButton
+                  url={shareUrl}
+                  title={article.attributes.Title}
+                >
                   <TwitterIcon round={true} size={30} />
                   {/* <svg
                     fill="currentColor"
@@ -167,6 +170,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   body={article.attributes.shortDescription}
                   about={article.attributes.Slug}
                   url={shareUrl}
+                  separator=":: "
                 >
                   <EmailIcon round={true} size={30} />
                 </EmailShareButton>

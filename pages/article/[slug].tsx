@@ -102,7 +102,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="ml-3 text-gray-500">
                 <FacebookShareButton url={shareUrl}>
-                  <FacebookIcon className="w-5 h-5" />
+                  <FacebookIcon className="w-6 h-6 mx-2" />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -117,7 +117,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
               <a className="ml-3 text-gray-500">
                 <TwitterShareButton url={shareUrl}>
-                  <TwitterIcon className="w-5 h-5" />
+                  <TwitterIcon className="w-6 h-6 mx-2" />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -133,7 +133,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="ml-3 text-gray-500">
                 <LinkedinShareButton url={shareUrl}>
-                  <LinkedinIcon className="w-5 h-5" />
+                  <LinkedinIcon className="w-6 h-6 mx-2" />
                   {/* <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -154,17 +154,17 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="ml-3 text-gray-500">
                 <EmailShareButton url={shareUrl}>
-                  <EmailIcon className="w-5 h-5" />
+                  <EmailIcon className="w-6 h-6 mx-2" />
                 </EmailShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <WhatsappShareButton url={shareUrl}>
-                  <WhatsappIcon className="w-5 h-5" />
+                  <WhatsappIcon className="w-6 h-6 mx-2" />
                 </WhatsappShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <TelegramShareButton url={shareUrl}>
-                  <TelegramIcon className="w-5 h-5" />
+                  <TelegramIcon className="w-6 h-6 mx-2" />
                 </TelegramShareButton>
               </a>
               <a className="ml-3 text-gray-500">

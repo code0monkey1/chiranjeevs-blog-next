@@ -12,6 +12,7 @@ import {
   EmailShareButton,
   FacebookIcon,
   FacebookShareButton,
+  LinkedinIcon,
   LinkedinShareButton,
   RedditIcon,
   RedditShareButton,
@@ -116,7 +117,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
               <a className="ml-3 text-gray-500">
                 <TwitterShareButton url={shareUrl}>
-                  <TwitterIcon />
+                  <TwitterIcon className="w-5 h-5" />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -132,7 +133,8 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="ml-3 text-gray-500">
                 <LinkedinShareButton url={shareUrl}>
-                  <svg
+                  <LinkedinIcon className="w-5 h-5" />
+                  {/* <svg
                     fill="currentColor"
                     stroke="currentColor"
                     strokeLinecap="round"
@@ -146,36 +148,28 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                       d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
                     ></path>
                     <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                  </svg>
+                  </svg> */}
                 </LinkedinShareButton>
               </a>
 
               <a className="ml-3 text-gray-500">
                 <EmailShareButton url={shareUrl}>
-                  <EmailIcon
-                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
-                  />
+                  <EmailIcon className="w-5 h-5" />
                 </EmailShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <WhatsappShareButton url={shareUrl}>
-                  <WhatsappIcon
-                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
-                  />
+                  <WhatsappIcon className="w-5 h-5" />
                 </WhatsappShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <TelegramShareButton url={shareUrl}>
-                  <TelegramIcon
-                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
-                  />
+                  <TelegramIcon className="w-5 h-5" />
                 </TelegramShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <RedditShareButton url={shareUrl}>
-                  <RedditIcon
-                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
-                  />
+                  <RedditIcon className="w-5 h-5" />
                 </RedditShareButton>
               </a>
             </span>

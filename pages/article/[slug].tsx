@@ -102,7 +102,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
               <a className="ml-3 text-gray-500">
                 <FacebookShareButton url={shareUrl}>
-                  <FacebookIcon className="w-6 h-6 mx-2" />
+                  <FacebookIcon
+                    round={true}
+                    size={32}
+                    className="w-6 h-6 mx-2"
+                  />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -117,7 +121,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               </a>
               <a className="ml-3 text-gray-500">
                 <TwitterShareButton url={shareUrl}>
-                  <TwitterIcon className="w-6 h-6 mx-2" />
+                  <TwitterIcon
+                    round={true}
+                    size={32}
+                    // className="w-6 h-6 mx-2"
+                  />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -163,22 +171,22 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   body={article.attributes.shortDescription}
                   url={shareUrl}
                 >
-                  <EmailIcon className="w-6 h-6 mx-2" />
+                  <EmailIcon round={true} className="w-6 h-6 mx-2" />
                 </EmailShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <WhatsappShareButton url={shareUrl}>
-                  <WhatsappIcon className="w-6 h-6 mx-2" />
+                  <WhatsappIcon round={true} className="w-6 h-6 mx-2" />
                 </WhatsappShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <TelegramShareButton url={shareUrl}>
-                  <TelegramIcon className="w-6 h-6 mx-2" />
+                  <TelegramIcon round={true} className="w-6 h-6 mx-2" />
                 </TelegramShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <RedditShareButton url={shareUrl}>
-                  <RedditIcon className="w-6 h-6 mx-2" />
+                  <RedditIcon round={true} className="w-6 h-6 mx-2" />
                 </RedditShareButton>
               </a>
             </span>

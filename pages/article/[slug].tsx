@@ -177,12 +177,18 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                 </WhatsappShareButton>
               </a>
               <a className="ml-3 text-gray-500">
-                <TelegramShareButton url={shareUrl}>
+                <TelegramShareButton
+                  url={shareUrl}
+                  title={article.attributes.Title}
+                >
                   <TelegramIcon round={true} size={30} />
                 </TelegramShareButton>
               </a>
               <a className="ml-3 text-gray-500">
-                <RedditShareButton url={shareUrl}>
+                <RedditShareButton
+                  url={shareUrl}
+                  title={article.attributes.Title}
+                >
                   <RedditIcon round={true} size={30} />
                 </RedditShareButton>
               </a>

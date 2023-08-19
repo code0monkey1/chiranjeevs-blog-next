@@ -101,7 +101,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
               <span className="text-gray-500">Share : </span>
 
               <a className="ml-3 text-gray-500">
-                <FacebookShareButton url={shareUrl}>
+                <FacebookShareButton
+                  url={shareUrl}
+                  quote={article.attributes.Title}
+                  hashtag={article.attributes.Slug}
+                >
                   <FacebookIcon round={true} size={30} />
                   {/* <svg
                     fill="currentColor"

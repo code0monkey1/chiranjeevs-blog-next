@@ -138,7 +138,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   source={shareUrl}
                   url={shareUrl}
                 >
-                  <LinkedinIcon className="w-6 h-6 mx-2" />
+                  <LinkedinIcon round={true} className="w-6 h-6 mx-2" />
                   {/* <svg
                     fill="currentColor"
                     stroke="currentColor"

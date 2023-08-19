@@ -94,7 +94,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
         <div className=" col-span-1">
           <div className="sticky top-0">
             <hr className="my-4 py-1 border-gray-200" />
-            <span className=" inline-flex sm:ml-auto sm:mt-0  my-3 justify-center sm:justify-start ">
+            <span className=" inline-flex sm:ml-auto sm:mt-0  my-3 justify-center sm:justify-start pb-2 ">
               <span className="text-gray-500 ">Share : </span>
               <a className="ml-3 text-gray-500">
                 <FacebookShareButton

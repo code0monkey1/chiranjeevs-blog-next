@@ -12,8 +12,10 @@ import {
   EmailShareButton,
   FacebookShareButton,
   LinkedinShareButton,
+  RedditIcon,
   RedditShareButton,
   TwitterShareButton,
+  WhatsappIcon,
   WhatsappShareButton,
 } from 'next-share';
 import Head from 'next/head';
@@ -148,6 +150,13 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                     style={{ width: 35, height: 22, borderRadius: '8rem' }}
                   />
                 </EmailShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <WhatsappShareButton url={shareUrl}>
+                  <WhatsappIcon
+                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
+                  />
+                </WhatsappShareButton>
               </a>
             </span>
             <hr className="my-2 border-gray-200" />

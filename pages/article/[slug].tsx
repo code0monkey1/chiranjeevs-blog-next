@@ -161,6 +161,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                 <EmailShareButton
                   subject={article.attributes.Title}
                   body={article.attributes.shortDescription}
+                  about={article.attributes.Slug}
                   url={shareUrl}
                 >
                   <EmailIcon round={true} size={30} />

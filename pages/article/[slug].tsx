@@ -14,6 +14,8 @@ import {
   LinkedinShareButton,
   RedditIcon,
   RedditShareButton,
+  TelegramIcon,
+  TelegramShareButton,
   TwitterShareButton,
   WhatsappIcon,
   WhatsappShareButton,
@@ -157,6 +159,13 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                     style={{ width: 35, height: 22, borderRadius: '8rem' }}
                   />
                 </WhatsappShareButton>
+              </a>
+              <a className="ml-3 text-gray-500">
+                <TelegramShareButton url={shareUrl}>
+                  <TelegramIcon
+                    style={{ width: 35, height: 22, borderRadius: '8rem' }}
+                  />
+                </TelegramShareButton>
               </a>
             </span>
             <hr className="my-2 border-gray-200" />

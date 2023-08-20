@@ -60,6 +60,7 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
 
   // const body = article.attributes.body;
   // console.log('🚀 ~ file: [slug].tsx:49 ~ Slug ~ body:', body);
+
   return (
     <>
       <Script src="https://sendfox.com/js/form.js" />

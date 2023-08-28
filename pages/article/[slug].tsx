@@ -100,7 +100,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   quote={article.attributes.Title}
                   hashtag={article.attributes.Slug}
                 >
-                  <FacebookIcon round={true} size={30} />
+                  <FacebookIcon
+                    className="filter grayscale"
+                    round={true}
+                    size={30}
+                  />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -118,7 +122,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   url={shareUrl}
                   title={article.attributes.Title}
                 >
-                  <TwitterIcon round={true} size={30} />
+                  <TwitterIcon
+                    round={true}
+                    size={30}
+                    className="filter grayscale"
+                  />
                   {/* <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -139,7 +147,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   summary={article.attributes.shortDescription}
                   source={shareUrl}
                 >
-                  <LinkedinIcon round={true} size={30} />
+                  <LinkedinIcon
+                    round={true}
+                    size={30}
+                    className="filter grayscale"
+                  />
                   {/* <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -166,12 +178,20 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   url={shareUrl}
                   separator=":: "
                 >
-                  <EmailIcon round={true} size={30} />
+                  <EmailIcon
+                    className="filter grayscale"
+                    round={true}
+                    size={30}
+                  />
                 </EmailShareButton>
               </a>
               <a className="ml-3 text-gray-500">
                 <WhatsappShareButton url={shareUrl}>
-                  <WhatsappIcon round={true} size={30} />
+                  <WhatsappIcon
+                    className="filter grayscale"
+                    round={true}
+                    size={30}
+                  />
                 </WhatsappShareButton>
               </a>
               <a className="ml-3 text-gray-500">
@@ -179,7 +199,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   url={shareUrl}
                   title={article.attributes.Title}
                 >
-                  <TelegramIcon round={true} size={30} />
+                  <TelegramIcon
+                    className="filter grayscale"
+                    round={true}
+                    size={30}
+                  />
                 </TelegramShareButton>
               </a>
               <a className="ml-3 text-gray-500">
@@ -187,7 +211,11 @@ const Article = ({ article, notFound = false }: TPropTypes) => {
                   url={shareUrl}
                   title={article.attributes.Title}
                 >
-                  <RedditIcon round={true} size={30} />
+                  <RedditIcon
+                    className="filter grayscale"
+                    round={true}
+                    size={30}
+                  />
                 </RedditShareButton>
               </a>
             </span>

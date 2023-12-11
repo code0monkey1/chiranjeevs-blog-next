@@ -5,6 +5,8 @@ export interface ICategory {
   attributes: ICategoryAttribute;
 }
 
+
+
 export interface ICategoryAttribute {
   Title: string;
   Slug: string;

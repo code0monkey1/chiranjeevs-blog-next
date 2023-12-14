@@ -28,9 +28,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <NextNProgress color="#53BD95" />
         <NavBar />
         <main className="pb-32">
-\
              <Component {...pageProps} />
-\
+            <SpeedInsights />
         </main>
         <Footer />
       </div>
